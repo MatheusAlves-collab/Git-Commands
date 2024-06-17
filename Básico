@@ -1,0 +1,20 @@
+git branch  - verifica quais branches há no repositorio
+git status - para ver se tudo está atualizado
+git pull - puxa o atualizado do servidor
+git add *.*
+git commit -m "EMPRESA - " - comenta o git atual
+git push - atualiza a versão local para o servidor
+
+-- outras funções
+
+git reset --hard HEAD^  -desfaz o ultimo commit e as alterações
+git reset --soft HEAD^  -desfaz apenas o ultimo commit
+
+-- Você vai criar um branch novo e commitar e dar push nele, depois fazer um pull request
+
+git checkout 'name' - mudar de branchs
+git branch escritorios_pbi_6946
+git add *.*
+git commit -am "EMPRESA - " - comenta o git atual
+git push --set-upstream origin CVC_6798
+na plataforma existirá a opção de pull request
